@@ -3,7 +3,7 @@ import React from 'react';
 
 export const Logo = ({ className }: { className?: string }) => (
   <div className={`flex items-center font-bold text-2xl ${className}`}>
-    <span className="text-[#2E7D32]">D’Growth</span>
+    <span className="text-[#2E7D32]">NutriEnt</span>
     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#81C784] -ml-1" viewBox="0 0 20 20" fill="currentColor">
       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.332a5.5 5.5 0 117.336 7.336A5.5 5.5 0 014.332 8.332z" clipRule="evenodd" />
       <path d="M10 4.5A5.5 5.5 0 004.5 10H3a7 7 0 117-7v1.5z" />
